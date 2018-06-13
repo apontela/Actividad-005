@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 5</title>
+	<meta name="viewport" content="initial-scale=1 widht=device-width">
+	<style>
+		body {
+			margin: 1px;
+			padding: 0px;
+			border: 1px solid black;
+			font-family: verdana;
+		}
+		div {
+			text-align: center;
+		}
+		.header {
+			height: 33.33%;
+			background-color: #63DD71;
+			color: white;
+		}
+		.title {
+			padding-top: 50px;
+			font-size: 6vh;
+			margin-top: 0px;
+		}
+
+		.parrafo{
+			display: table-cell;
+			width: 33.33vw;
+			text-align: left;
+			padding-left: 4%;
+			padding-right: 4%;
+			box-sizing: border-box;
+		}
+		.cuadrado {
+			background-color: #63DD71;
+			height: 200px;
+			width: 100%;
+			margin: auto;
+			margin-top: 20px;
+		}
+		@media (max-width: 480px) {
+			.parrafo {
+				display: block;
+				width: 100vw;
+			}
+			.cuadrado {
+				width: 100%;
+			}
+		}
+
+		
+
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<p class="title"> HOLA !!<br> ESTE ES UN EJERCICIO DE GRILLAS</p>
+	</div>
+
+	<div class="parrafo primero">
+		<div class="cuadrado">
+		</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda optio esse eaque rem veniam et nostrum, distinctio animi. Dolorum a atque distinctio molestiae pariatur neque inventore quod cum, reprehenderit!</p>
+	</div>
+	<div class="parrafo segundo">
+		<div class="cuadrado">
+		</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus fugit atque facere soluta qui ab, illum neque consectetur ipsa dolores sit tempora, vero ea. Perspiciatis itaque fuga suscipit alias blanditiis?</p>
+	</div>
+	<div class="parrafo tercero">
+		<div class="cuadrado">
+		</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum tempore officia et minima aspernatur, laborum, repellendus ipsa sapiente odit similique, voluptates cupiditate. Eius facere consequatur voluptatibus numquam atque veniam quibusdam.</p>
+	</div>
+</body>
+</html>
